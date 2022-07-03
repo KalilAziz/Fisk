@@ -1,0 +1,88 @@
+.background{
+  background-color: #333333;
+}
+.title{
+  
+  h1{
+    max-width: 600px;
+    text-align: center;
+    margin: 40px auto;
+  }
+  .button{
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  .contato{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    h3{
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    ul{
+      list-style: none;
+      color: rgba(255,255,255, .8);
+
+      li{
+        margin: 4px 0;
+      }
+    }
+
+    input{
+      width: 100%;
+      height: 40px;
+      background-color: transparent;
+      border: 1px solid white;
+      padding-left: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    button{
+      width: 100%;
+      height: 43px;
+      background-color: red;
+      border-radius: 15px;
+      color: white;
+    }
+  }
+  .redesSociais{
+    margin: 20px 0;
+
+    h3{
+      text-align: center;
+      color: white;
+    }
+
+    .icons{
+      display: flex;
+      justify-content:center;
+
+      .icon{
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px 10px; 
+      }
+    }
+  }
+  .endereco{
+    text-align: center;
+    color: white;
+
+    p{
+      margin: 5px 0;
+    }
+  }
+}

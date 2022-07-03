@@ -1,0 +1,27 @@
+.componetHeader{
+  background-color: #333;
+
+  div{
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      width: 200px;
+    }
+
+    nav{
+      ul{
+        list-style-type: none;
+    
+        li{
+          display: inline-block;
+          margin: 10px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,54 @@
+.div{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+  h1{
+    margin: 100px auto;
+  }
+
+  .conteudos{
+    display: flex;
+    flex-wrap: wrap;
+  
+    .card{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 600px;
+      padding: 20px;
+      margin: 10px;
+  
+      img {
+        width:70px;
+        height:70px
+      }
+  
+      .conteudo{
+        margin: 0 10px;
+        min-width: 300px;
+    
+        
+        span{
+          color: rgb(133, 133, 133);
+        }
+    
+        p{
+          font-size: 110%;
+          text-align: justify;
+          color: rgb(91, 91, 91);
+          max-width: 400px;
+  
+        }
+    
+        h1{
+          margin: 20px 0;
+          color: red;
+          max-width: 400px;
+  
+        }
+      }
+    }
+  }
+}

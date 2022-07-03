@@ -1,0 +1,18 @@
+.background{
+  background-image: url('/images/estudantes4.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  backdrop-filter: blur(10rem);
+  color: white;
+  margin-bottom: 150px;
+
+
+
+  .container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+}

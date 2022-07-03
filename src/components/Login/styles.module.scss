@@ -1,0 +1,33 @@
+.headerContainer{
+  
+  div{
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+      display: flex;
+      align-items: center;
+      height: 100%;
+      list-style: none;
+
+      li{
+        margin: 10px
+      }
+    }
+  }
+
+  .logo{
+    width: 200px
+  }
+
+  .entrar{
+    background-color: red;
+    padding:5px;
+    border-radius: 10px;
+
+  &:hover{
+    background-color: black;
+    transition: 0.5s;
+  }
+  }
+}

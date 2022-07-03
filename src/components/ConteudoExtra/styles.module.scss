@@ -1,0 +1,59 @@
+.title{
+  text-align: center;
+  margin: 50px 0;
+}
+
+.cards{
+  margin-bottom: 50px;
+  
+
+  .conteudos{
+    display: flex;
+    justify-content:space-between;
+    margin: 25px 0;
+
+    .conteudo{
+      margin: 20px 10px;
+      padding: 40px;
+      min-width: 300px;
+  
+      
+      span{
+        color: rgb(133, 133, 133);
+      }
+  
+      p{
+        font-size: 110%;
+        text-align: justify;
+      }
+  
+      h1{
+        margin: 20px 0;
+        color: red;
+      }
+    }
+    .imagem2_baixo{
+      display: none;
+    }
+
+    img{
+      max-width: 400px;
+      display: block;
+      border-radius: 25px;
+    }
+  }
+
+}
+
+@media (max-width: 600px){
+  .conteudos{
+    flex-wrap: wrap;
+    text-align: center;
+
+
+    img{
+      margin: auto;
+    }
+  }
+
+}
